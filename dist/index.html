@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>V2U NGO</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  </head>
+  <body class="bg-gray-50 text-gray-800">
+    <!-- Navbar -->
+    <header class="bg-white shadow sticky top-0 z-50">
+      <div class="container mx-auto px-6 py-4 flex justify-between items-center">
+        <h1 class="text-2xl font-bold text-blue-600">v2U</h1>
+        <nav class="space-x-4">
+          <a href="#about" class="hover:text-blue-600">About</a>
+          <a href="#causes" class="hover:text-blue-600">Causes</a>
+          <a href="#volunteer" class="hover:text-blue-600">Volunteer</a>
+          <a href="#donate" class="bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700">Donate</a>
+        </nav>
+      </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="bg-blue-100 text-center py-20 px-6">
+      <h2 class="text-4xl font-bold mb-4">Together We Can Make a Difference</h2>
+      <p class="mb-6 text-lg">Join us in our mission to bring hope and help to those in need.</p>
+      <a href="#donate" class="bg-blue-600 text-white px-6 py-3 rounded-full hover:bg-blue-700 transition">Donate Now</a>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="container mx-auto px-6 py-16">
+      <h3 class="text-3xl font-bold mb-6">Who We Are</h3>
+      <p class="text-lg leading-relaxed">V2U is a non-profit organization dedicated to providing education, healthcare, and emergency support to underserved communities. Our team works tirelessly to bring positive change and empower individuals through various community-driven initiatives.</p>
+    </section>
+
+    <!-- Causes Section -->
+    <section id="causes" class="bg-white py-16 px-6">
+      <div class="container mx-auto">
+        <h3 class="text-3xl font-bold mb-10">Our Causes</h3>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+          <div class="bg-gray-100 p-6 rounded shadow">
+            <h4 class="text-xl font-bold mb-2">Education for All</h4>
+            <p class="mb-4">We provide learning tools and scholarships for children in rural areas.</p>
+            <a href="#donate" class="text-blue-600 underline">Support Now</a>
+          </div>
+          <div class="bg-gray-100 p-6 rounded shadow">
+            <h4 class="text-xl font-bold mb-2">Healthcare Access</h4>
+            <p class="mb-4">We organize free health camps and distribute essential medicines.</p>
+            <a href="#donate" class="text-blue-600 underline">Contribute</a>
+          </div>
+          <div class="bg-gray-100 p-6 rounded shadow">
+            <h4 class="text-xl font-bold mb-2">Disaster Relief</h4>
+            <p class="mb-4">Immediate response teams providing food, shelter, and support during crises.</p>
+            <a href="#donate" class="text-blue-600 underline">Help Now</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Volunteer Section -->
+    <section id="volunteer" class="container mx-auto px-6 py-16">
+      <h3 class="text-3xl font-bold mb-6">Become a Volunteer</h3>
+      <p class="mb-6 text-lg">Want to contribute your time and skills? Fill out the form and we'll get back to you!</p>
+      <form class="bg-white p-6 rounded shadow-md space-y-4 max-w-xl">
+        <input type="text" placeholder="Full Name" class="w-full border p-3 rounded" />
+        <input type="email" placeholder="Email Address" class="w-full border p-3 rounded" />
+        <textarea placeholder="Tell us why you want to volunteer" class="w-full border p-3 rounded"></textarea>
+        <button type="submit" class="bg-blue-600 text-white px-6 py-3 rounded hover:bg-blue-700">Submit</button>
+      </form>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white text-center py-8">
+      <p>&copy; 2025 V2U NGO. All rights reserved.</p>
+    </footer>
+  </body>
+</html>
