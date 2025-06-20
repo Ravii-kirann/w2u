@@ -1,11 +1,6 @@
-/** @type {import('tailwindcss').Config} */
-export default {
-  content: ["./index.html","./src/**/*.{js,ts,jsx,tsx}"],
-  theme: {
-    extend: {},
-  },
-  plugins: [],
-}
+// vite.config.js
+import { defineConfig } from 'vite'
 
- 
-
+export default defineConfig({
+  base: '/', // or just remove the `base` line entirely
+})

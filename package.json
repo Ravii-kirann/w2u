@@ -10,7 +10,8 @@
   },
   "devDependencies": {
     "tailwindcss": "^3.4.1",
-    "vite": "^6.3.5"
+    "vite": "^6.3.5",
+    "vite-plugin-gh-pages": "^1.0.1"
   },
   "dependencies": {
     "autoprefixer": "^10.4.21",
